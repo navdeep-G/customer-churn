@@ -1,6 +1,6 @@
 ## Analysis
 
-The logical order to work through these notebooks is:
+The logical order to work through these notebooks is as follows:
 
 1) [Query_Based_Predictions.ipynb](Query_Based_Predictions.ipynb)  
 2) [h2o_binary_classification_cost_optimization.ipynb](h2o_binary_classification_cost_optimization.ipynb)  
