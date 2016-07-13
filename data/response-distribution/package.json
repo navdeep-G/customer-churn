@@ -1,0 +1,16 @@
+{
+  "name": "response-distribution",
+  "version": "1.0.0",
+  "description": "",
+  "main": "calculateResponseDistribution.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "@micahstubbs <micah.stubbs@gmail.com> (https://twitter.com/micahstubbs)",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "d3": "^4.1.0",
+    "jsonfile": "^2.3.1",
+    "lodash": "^4.13.1"
+  }
+}
