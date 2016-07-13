@@ -1,0 +1,298 @@
+[
+  {
+    "column": "gender",
+    "responseCounts": [
+      {
+        "value": "Female",
+        "churnedYesCount": 684,
+        "churnedNoCount": 1934
+      },
+      {
+        "value": "Male",
+        "churnedYesCount": 685,
+        "churnedNoCount": 1987
+      }
+    ]
+  },
+  {
+    "column": "SeniorCitizen",
+    "responseCounts": []
+  },
+  {
+    "column": "Partner",
+    "responseCounts": [
+      {
+        "value": "Yes",
+        "churnedYesCount": 501,
+        "churnedNoCount": 2059
+      },
+      {
+        "value": "No",
+        "churnedYesCount": 868,
+        "churnedNoCount": 1862
+      }
+    ]
+  },
+  {
+    "column": "Dependents",
+    "responseCounts": [
+      {
+        "value": "No",
+        "churnedYesCount": 1134,
+        "churnedNoCount": 2567
+      },
+      {
+        "value": "Yes",
+        "churnedYesCount": 235,
+        "churnedNoCount": 1354
+      }
+    ]
+  },
+  {
+    "column": "tenure",
+    "responseCounts": []
+  },
+  {
+    "column": "PhoneService",
+    "responseCounts": [
+      {
+        "value": "No",
+        "churnedYesCount": 117,
+        "churnedNoCount": 389
+      },
+      {
+        "value": "Yes",
+        "churnedYesCount": 1252,
+        "churnedNoCount": 3532
+      }
+    ]
+  },
+  {
+    "column": "MultipleLines",
+    "responseCounts": [
+      {
+        "value": "No phone service",
+        "churnedYesCount": 117,
+        "churnedNoCount": 389
+      },
+      {
+        "value": "No",
+        "churnedYesCount": 619,
+        "churnedNoCount": 1909
+      },
+      {
+        "value": "Yes",
+        "churnedYesCount": 633,
+        "churnedNoCount": 1623
+      }
+    ]
+  },
+  {
+    "column": "InternetService",
+    "responseCounts": [
+      {
+        "value": "DSL",
+        "churnedYesCount": 328,
+        "churnedNoCount": 1496
+      },
+      {
+        "value": "Fiber optic",
+        "churnedYesCount": 962,
+        "churnedNoCount": 1347
+      },
+      {
+        "value": "No",
+        "churnedYesCount": 79,
+        "churnedNoCount": 1078
+      }
+    ]
+  },
+  {
+    "column": "OnlineSecurity",
+    "responseCounts": [
+      {
+        "value": "No",
+        "churnedYesCount": 1068,
+        "churnedNoCount": 1541
+      },
+      {
+        "value": "Yes",
+        "churnedYesCount": 222,
+        "churnedNoCount": 1302
+      },
+      {
+        "value": "No internet service",
+        "churnedYesCount": 79,
+        "churnedNoCount": 1078
+      }
+    ]
+  },
+  {
+    "column": "OnlineBackup",
+    "responseCounts": [
+      {
+        "value": "Yes",
+        "churnedYesCount": 383,
+        "churnedNoCount": 1418
+      },
+      {
+        "value": "No",
+        "churnedYesCount": 907,
+        "churnedNoCount": 1425
+      },
+      {
+        "value": "No internet service",
+        "churnedYesCount": 79,
+        "churnedNoCount": 1078
+      }
+    ]
+  },
+  {
+    "column": "DeviceProtection",
+    "responseCounts": [
+      {
+        "value": "No",
+        "churnedYesCount": 882,
+        "churnedNoCount": 1440
+      },
+      {
+        "value": "Yes",
+        "churnedYesCount": 408,
+        "churnedNoCount": 1403
+      },
+      {
+        "value": "No internet service",
+        "churnedYesCount": 79,
+        "churnedNoCount": 1078
+      }
+    ]
+  },
+  {
+    "column": "TechSupport",
+    "responseCounts": [
+      {
+        "value": "No",
+        "churnedYesCount": 1057,
+        "churnedNoCount": 1527
+      },
+      {
+        "value": "Yes",
+        "churnedYesCount": 233,
+        "churnedNoCount": 1316
+      },
+      {
+        "value": "No internet service",
+        "churnedYesCount": 79,
+        "churnedNoCount": 1078
+      }
+    ]
+  },
+  {
+    "column": "StreamingTV",
+    "responseCounts": [
+      {
+        "value": "No",
+        "churnedYesCount": 702,
+        "churnedNoCount": 1426
+      },
+      {
+        "value": "Yes",
+        "churnedYesCount": 588,
+        "churnedNoCount": 1417
+      },
+      {
+        "value": "No internet service",
+        "churnedYesCount": 79,
+        "churnedNoCount": 1078
+      }
+    ]
+  },
+  {
+    "column": "StreamingMovies",
+    "responseCounts": [
+      {
+        "value": "No",
+        "churnedYesCount": 704,
+        "churnedNoCount": 1406
+      },
+      {
+        "value": "Yes",
+        "churnedYesCount": 586,
+        "churnedNoCount": 1437
+      },
+      {
+        "value": "No internet service",
+        "churnedYesCount": 79,
+        "churnedNoCount": 1078
+      }
+    ]
+  },
+  {
+    "column": "Contract",
+    "responseCounts": [
+      {
+        "value": "Month-to-month",
+        "churnedYesCount": 1212,
+        "churnedNoCount": 1684
+      },
+      {
+        "value": "One year",
+        "churnedYesCount": 118,
+        "churnedNoCount": 984
+      },
+      {
+        "value": "Two year",
+        "churnedYesCount": 39,
+        "churnedNoCount": 1253
+      }
+    ]
+  },
+  {
+    "column": "PaperlessBilling",
+    "responseCounts": [
+      {
+        "value": "Yes",
+        "churnedYesCount": 1020,
+        "churnedNoCount": 2106
+      },
+      {
+        "value": "No",
+        "churnedYesCount": 349,
+        "churnedNoCount": 1815
+      }
+    ]
+  },
+  {
+    "column": "PaymentMethod",
+    "responseCounts": [
+      {
+        "value": "Electronic check",
+        "churnedYesCount": 791,
+        "churnedNoCount": 938
+      },
+      {
+        "value": "Mailed check",
+        "churnedYesCount": 229,
+        "churnedNoCount": 989
+      },
+      {
+        "value": "Bank transfer (automatic)",
+        "churnedYesCount": 182,
+        "churnedNoCount": 988
+      },
+      {
+        "value": "Credit card (automatic)",
+        "churnedYesCount": 167,
+        "churnedNoCount": 1006
+      }
+    ]
+  },
+  {
+    "column": "MonthlyCharges",
+    "responseCounts": []
+  },
+  {
+    "column": "TotalCharges",
+    "responseCounts": []
+  }
+]
