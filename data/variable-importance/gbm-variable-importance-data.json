@@ -1,0 +1,78 @@
+[
+  {
+    "columnName": "Contract",
+    "scaledImportance": 1
+  },
+  {
+    "columnName": "tenure",
+    "scaledImportance": 0.36478375210514435
+  },
+  {
+    "columnName": "MonthlyCharges",
+    "scaledImportance": 0.2853270727921481
+  },
+  {
+    "columnName": "TotalCharges",
+    "scaledImportance": 0.2506582307075085
+  },
+  {
+    "columnName": "InternetService",
+    "scaledImportance": 0.24839012604572747
+  },
+  {
+    "columnName": "OnlineSecurity",
+    "scaledImportance": 0.12595261481146358
+  },
+  {
+    "columnName": "PaymentMethod",
+    "scaledImportance": 0.11674148998602137
+  },
+  {
+    "columnName": "TechSupport",
+    "scaledImportance": 0.08429828380710797
+  },
+  {
+    "columnName": "PaperlessBilling",
+    "scaledImportance": 0.03823250201472759
+  },
+  {
+    "columnName": "OnlineBackup",
+    "scaledImportance": 0.0371464939958702
+  },
+  {
+    "columnName": "MultipleLines",
+    "scaledImportance": 0.03252081319160089
+  },
+  {
+    "columnName": "SeniorCitizen",
+    "scaledImportance": 0.03019129645033323
+  },
+  {
+    "columnName": "gender",
+    "scaledImportance": 0.021308140357243113
+  },
+  {
+    "columnName": "Dependents",
+    "scaledImportance": 0.019211987329816
+  },
+  {
+    "columnName": "StreamingTV",
+    "scaledImportance": 0.012945805307047005
+  },
+  {
+    "columnName": "StreamingMovies",
+    "scaledImportance": 0.011299855448678382
+  },
+  {
+    "columnName": "Partner",
+    "scaledImportance": 0.006379948091486313
+  },
+  {
+    "columnName": "PhoneService",
+    "scaledImportance": 0.004932883435273519
+  },
+  {
+    "columnName": "DeviceProtection",
+    "scaledImportance": 0.004931128491829789
+  }
+]
