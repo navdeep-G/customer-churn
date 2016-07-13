@@ -1,78 +1,97 @@
 [
   {
     "columnName": "Contract",
-    "scaledImportance": 1
+    "scaledImportance": 1,
+    "percentage": 0.37102276245391197
   },
   {
     "columnName": "tenure",
-    "scaledImportance": 0.36478375210514435
+    "scaledImportance": 0.36478375210514435,
+    "percentage": 0.1353430754043537
   },
   {
     "columnName": "MonthlyCharges",
-    "scaledImportance": 0.2853270727921481
+    "scaledImportance": 0.2853270727921481,
+    "percentage": 0.10586283875023121
   },
   {
     "columnName": "TotalCharges",
-    "scaledImportance": 0.2506582307075085
+    "scaledImportance": 0.2506582307075085,
+    "percentage": 0.09299990918890978
   },
   {
     "columnName": "InternetService",
-    "scaledImportance": 0.24839012604572747
+    "scaledImportance": 0.24839012604572747,
+    "percentage": 0.0921583907317612
   },
   {
     "columnName": "OnlineSecurity",
-    "scaledImportance": 0.12595261481146358
+    "scaledImportance": 0.12595261481146358,
+    "percentage": 0.046731287085642725
   },
   {
     "columnName": "PaymentMethod",
-    "scaledImportance": 0.11674148998602137
+    "scaledImportance": 0.11674148998602137,
+    "percentage": 0.04331375010759935
   },
   {
     "columnName": "TechSupport",
-    "scaledImportance": 0.08429828380710797
+    "scaledImportance": 0.08429828380710797,
+    "percentage": 0.03127658212823707
   },
   {
     "columnName": "PaperlessBilling",
-    "scaledImportance": 0.03823250201472759
+    "scaledImportance": 0.03823250201472759,
+    "percentage": 0.014185128513028986
   },
   {
     "columnName": "OnlineBackup",
-    "scaledImportance": 0.0371464939958702
+    "scaledImportance": 0.0371464939958702,
+    "percentage": 0.013782194817825418
   },
   {
     "columnName": "MultipleLines",
-    "scaledImportance": 0.03252081319160089
+    "scaledImportance": 0.03252081319160089,
+    "percentage": 0.012065961947595384
   },
   {
     "columnName": "SeniorCitizen",
-    "scaledImportance": 0.03019129645033323
+    "scaledImportance": 0.03019129645033323,
+    "percentage": 0.011201658211067621
   },
   {
     "columnName": "gender",
-    "scaledImportance": 0.021308140357243113
+    "scaledImportance": 0.021308140357243113,
+    "percentage": 0.007905805098100026
   },
   {
     "columnName": "Dependents",
-    "scaledImportance": 0.019211987329816
+    "scaledImportance": 0.019211987329816,
+    "percentage": 0.007128084611337889
   },
   {
     "columnName": "StreamingTV",
-    "scaledImportance": 0.012945805307047005
+    "scaledImportance": 0.012945805307047005,
+    "percentage": 0.0048031884472110944
   },
   {
     "columnName": "StreamingMovies",
-    "scaledImportance": 0.011299855448678382
+    "scaledImportance": 0.011299855448678382,
+    "percentage": 0.004192503583898542
   },
   {
     "columnName": "Partner",
-    "scaledImportance": 0.006379948091486313
+    "scaledImportance": 0.006379948091486313,
+    "percentage": 0.0023671059652158157
   },
   {
     "columnName": "PhoneService",
-    "scaledImportance": 0.004932883435273519
+    "scaledImportance": 0.004932883435273519,
+    "percentage": 0.0018302120390183243
   },
   {
     "columnName": "DeviceProtection",
-    "scaledImportance": 0.004931128491829789
+    "scaledImportance": 0.004931128491829789,
+    "percentage": 0.0018295609150538808
   }
 ]
