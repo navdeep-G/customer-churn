@@ -45,7 +45,7 @@ const nbConfig = {
     resourceId: 'naivebayes-00e336fe-a8cc-46a7-bc60-c4dc1d6cf94e',
   };
 
-const config = nbConfig;
+const config = gbmConfig;
 
 const server = config.server;
 const port = config.port;
@@ -71,6 +71,7 @@ function parseResponse(response) {
   const variableImportanceData = responseData.models[0].output[metricsType].data;
   const columnData = variableImportanceData[0];
   const scaledImportanceData = variableImportanceData[2];
+  const percentageData = variableImportanceData[3];
 
   const chartData = [];
 
@@ -82,6 +83,10 @@ function parseResponse(response) {
 
   scaledImportanceData.forEach((d, i) => {
     chartData[i].scaledImportance = d;
+  })
+
+  percentageData.forEach((d, i) => {
+    chartData[i].percentage = d;
   })
 
   const parsedData = chartData;
