@@ -15,14 +15,16 @@ const columnsToPlot = _.remove(columnNames, d => ignore.indexOf(d) === -1);
 
 // console.log('columnNames', columnNames);
 // console.log('columnsToPlot', columnsToPlot);
+let responseCounts;
 
 columnsToPlot.forEach(column => {
-  const responseCounts = [];
+  responseCounts = [];
+  console.log('isNaN(data[0][column])', isNaN(data[0][column]));
 
-  // if the first observation of our column is not a number
   if (isNaN(data[0][column])) {
+    // calculate churn counts for our categorical features
     const uniqueValues = _.uniq(data.map(row => row[column]));
-    console.log('uniqueValues', uniqueValues);
+    console.log(`uniqueValues for ${column}`, uniqueValues);
 
     uniqueValues.forEach(value => {
       const valueSubset = data.filter(d => d[column] === value);
@@ -36,9 +38,28 @@ columnsToPlot.forEach(column => {
     })
   }
 
+  if(!isNaN(data[0][column])) {
+    // calculate churn counts for our numeric features
+    console.log('column', column);
+    let histogram = d3.histogram()
+      .value(d => Number(d[column]))
+      .domain(d3.extent(data.map(e => Number(e[column]))))
+      .thresholds(20);
+    // console.log('typeof histogram(data)', typeof histogram(data));
+    // console.log('_.keys(histogram(data))', _.keys(histogram(data)));
+    _.keys(histogram(data)).forEach(key => {
+      console.log('histogram(data)[key]', histogram(data)[key]);
+      responseCounts.push(histogram(data)[key]);
+    })
+    // responseCounts.concat(histogram(data));
+    responseCounts.forEach((d, i) => console.log(`bin ${i} responseCount`, d.length));
+  }
+
+  console.log('responseCounts.length', responseCounts.length);
+  console.log('');
   outputData.push({
     column,
-    responseCounts
+    responseCounts: responseCounts
   })
 })
 
