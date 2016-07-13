@@ -1,0 +1,15 @@
+{
+  "name": "roc-curves",
+  "version": "1.0.0",
+  "description": "",
+  "main": "getROCCurveData.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "@micahstubbs <micah.stubbs@gmail.com> (https://twitter.com/micahstubbs)",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "d3": "^4.1.1",
+    "jsonfile": "^2.3.1"
+  }
+}
