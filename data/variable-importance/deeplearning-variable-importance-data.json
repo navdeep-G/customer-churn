@@ -1,0 +1,302 @@
+[
+  {
+    "columnName": "PhoneService.Yes",
+    "scaledImportance": 1,
+    "percentage": 0.029403081903842374
+  },
+  {
+    "columnName": "Contract.Month-to-month",
+    "scaledImportance": 0.9036054015159607,
+    "percentage": 0.026568783629528168
+  },
+  {
+    "columnName": "Dependents.No",
+    "scaledImportance": 0.894070029258728,
+    "percentage": 0.026288414298065128
+  },
+  {
+    "columnName": "gender.Female",
+    "scaledImportance": 0.851361870765686,
+    "percentage": 0.025032662815931934
+  },
+  {
+    "columnName": "StreamingMovies.No",
+    "scaledImportance": 0.8386247158050537,
+    "percentage": 0.024658151205402528
+  },
+  {
+    "columnName": "gender.Male",
+    "scaledImportance": 0.8168632388114929,
+    "percentage": 0.02401829671501228
+  },
+  {
+    "columnName": "Contract.One year",
+    "scaledImportance": 0.8089050054550171,
+    "percentage": 0.02378430012782193
+  },
+  {
+    "columnName": "MultipleLines.No",
+    "scaledImportance": 0.8075392246246338,
+    "percentage": 0.023744141962203473
+  },
+  {
+    "columnName": "Contract.Two year",
+    "scaledImportance": 0.802432119846344,
+    "percentage": 0.023593977342115914
+  },
+  {
+    "columnName": "PaperlessBilling.Yes",
+    "scaledImportance": 0.7957167625427246,
+    "percentage": 0.023396525141304025
+  },
+  {
+    "columnName": "Partner.Yes",
+    "scaledImportance": 0.7937784790992737,
+    "percentage": 0.023339533634463377
+  },
+  {
+    "columnName": "InternetService.Fiber optic",
+    "scaledImportance": 0.7896797060966492,
+    "percentage": 0.02321901707616195
+  },
+  {
+    "columnName": "StreamingMovies.Yes",
+    "scaledImportance": 0.7878594994544983,
+    "percentage": 0.02316549739118087
+  },
+  {
+    "columnName": "MultipleLines.Yes",
+    "scaledImportance": 0.7836677432060242,
+    "percentage": 0.023042246838886043
+  },
+  {
+    "columnName": "OnlineBackup.No",
+    "scaledImportance": 0.7816135287284851,
+    "percentage": 0.022981846602354902
+  },
+  {
+    "columnName": "PaymentMethod.Mailed check",
+    "scaledImportance": 0.7807601690292358,
+    "percentage": 0.022956755197224437
+  },
+  {
+    "columnName": "OnlineSecurity.No",
+    "scaledImportance": 0.7744044661521912,
+    "percentage": 0.022769877944974207
+  },
+  {
+    "columnName": "PaymentMethod.Electronic check",
+    "scaledImportance": 0.7693427205085754,
+    "percentage": 0.022621047023238555
+  },
+  {
+    "columnName": "Partner.No",
+    "scaledImportance": 0.7684714198112488,
+    "percentage": 0.022595428097472187
+  },
+  {
+    "columnName": "StreamingTV.No",
+    "scaledImportance": 0.7547789216041565,
+    "percentage": 0.022192826451220837
+  },
+  {
+    "columnName": "DeviceProtection.No",
+    "scaledImportance": 0.7499794960021973,
+    "percentage": 0.022051708547155033
+  },
+  {
+    "columnName": "tenure",
+    "scaledImportance": 0.7496938109397888,
+    "percentage": 0.02204330852586633
+  },
+  {
+    "columnName": "PaymentMethod.Credit card (automatic)",
+    "scaledImportance": 0.7466250658035278,
+    "percentage": 0.021953077961282833
+  },
+  {
+    "columnName": "StreamingTV.No internet service",
+    "scaledImportance": 0.7455000281333923,
+    "percentage": 0.021919998386522928
+  },
+  {
+    "columnName": "Dependents.Yes",
+    "scaledImportance": 0.7411747574806213,
+    "percentage": 0.02179282209926322
+  },
+  {
+    "columnName": "TechSupport.No internet service",
+    "scaledImportance": 0.7408075332641602,
+    "percentage": 0.021782024575549536
+  },
+  {
+    "columnName": "TechSupport.Yes",
+    "scaledImportance": 0.7405246496200562,
+    "percentage": 0.021773706924592687
+  },
+  {
+    "columnName": "StreamingTV.Yes",
+    "scaledImportance": 0.740358829498291,
+    "percentage": 0.021768831301971124
+  },
+  {
+    "columnName": "OnlineSecurity.Yes",
+    "scaledImportance": 0.7373539209365845,
+    "percentage": 0.021680477729417707
+  },
+  {
+    "columnName": "InternetService.DSL",
+    "scaledImportance": 0.7350842952728271,
+    "percentage": 0.02161374374013519
+  },
+  {
+    "columnName": "TechSupport.No",
+    "scaledImportance": 0.7327111959457397,
+    "percentage": 0.021543967306254883
+  },
+  {
+    "columnName": "StreamingMovies.No internet service",
+    "scaledImportance": 0.7318102717399597,
+    "percentage": 0.021517477358043182
+  },
+  {
+    "columnName": "OnlineBackup.Yes",
+    "scaledImportance": 0.7249901294708252,
+    "percentage": 0.02131694415630796
+  },
+  {
+    "columnName": "OnlineSecurity.No internet service",
+    "scaledImportance": 0.7146689295768738,
+    "percentage": 0.021013469070480177
+  },
+  {
+    "columnName": "PaymentMethod.Bank transfer (automatic)",
+    "scaledImportance": 0.7106372714042664,
+    "percentage": 0.020894925895022707
+  },
+  {
+    "columnName": "InternetService.No",
+    "scaledImportance": 0.7081438899040222,
+    "percentage": 0.020821612794553503
+  },
+  {
+    "columnName": "PaperlessBilling.No",
+    "scaledImportance": 0.7067733407020569,
+    "percentage": 0.02078131442411487
+  },
+  {
+    "columnName": "PhoneService.No",
+    "scaledImportance": 0.7008276581764221,
+    "percentage": 0.020606493033839386
+  },
+  {
+    "columnName": "MultipleLines.No phone service",
+    "scaledImportance": 0.6997061371803284,
+    "percentage": 0.020573516860134363
+  },
+  {
+    "columnName": "OnlineBackup.No internet service",
+    "scaledImportance": 0.6988521814346313,
+    "percentage": 0.020548407929401376
+  },
+  {
+    "columnName": "DeviceProtection.Yes",
+    "scaledImportance": 0.6923409104347229,
+    "percentage": 0.020356956494892955
+  },
+  {
+    "columnName": "DeviceProtection.No internet service",
+    "scaledImportance": 0.6620884537696838,
+    "percentage": 0.01946744103377837
+  },
+  {
+    "columnName": "TotalCharges",
+    "scaledImportance": 0.660993754863739,
+    "percentage": 0.019435253512186827
+  },
+  {
+    "columnName": "MonthlyCharges",
+    "scaledImportance": 0.6009755730628967,
+    "percentage": 0.01767053399697696
+  },
+  {
+    "columnName": "SeniorCitizen",
+    "scaledImportance": 0.5339431762695312,
+    "percentage": 0.015699574943850773
+  },
+  {
+    "columnName": "PaymentMethod.missing(NA)",
+    "scaledImportance": 0,
+    "percentage": 0
+  },
+  {
+    "columnName": "InternetService.missing(NA)",
+    "scaledImportance": 0,
+    "percentage": 0
+  },
+  {
+    "columnName": "OnlineSecurity.missing(NA)",
+    "scaledImportance": 0,
+    "percentage": 0
+  },
+  {
+    "columnName": "OnlineBackup.missing(NA)",
+    "scaledImportance": 0,
+    "percentage": 0
+  },
+  {
+    "columnName": "DeviceProtection.missing(NA)",
+    "scaledImportance": 0,
+    "percentage": 0
+  },
+  {
+    "columnName": "TechSupport.missing(NA)",
+    "scaledImportance": 0,
+    "percentage": 0
+  },
+  {
+    "columnName": "StreamingTV.missing(NA)",
+    "scaledImportance": 0,
+    "percentage": 0
+  },
+  {
+    "columnName": "StreamingMovies.missing(NA)",
+    "scaledImportance": 0,
+    "percentage": 0
+  },
+  {
+    "columnName": "Contract.missing(NA)",
+    "scaledImportance": 0,
+    "percentage": 0
+  },
+  {
+    "columnName": "MultipleLines.missing(NA)",
+    "scaledImportance": 0,
+    "percentage": 0
+  },
+  {
+    "columnName": "Dependents.missing(NA)",
+    "scaledImportance": 0,
+    "percentage": 0
+  },
+  {
+    "columnName": "PhoneService.missing(NA)",
+    "scaledImportance": 0,
+    "percentage": 0
+  },
+  {
+    "columnName": "gender.missing(NA)",
+    "scaledImportance": 0,
+    "percentage": 0
+  },
+  {
+    "columnName": "PaperlessBilling.missing(NA)",
+    "scaledImportance": 0,
+    "percentage": 0
+  },
+  {
+    "columnName": "Partner.missing(NA)",
+    "scaledImportance": 0,
+    "percentage": 0
+  }
+]
