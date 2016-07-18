@@ -8,7 +8,7 @@ String.prototype.capitalizeFirstLetter = function() {
 }
 
 // variable importance data for this model is provided as
-// STANDARDIZED COEFFICIENT MAGNITUDES
+// Standardized Coefficient Magnitudes
 const glmConfig = {
   server: 'localhost',
   port: '54321',
@@ -35,7 +35,7 @@ const dlConfig = {
   server: 'localhost',
   port: '54321',
   type: 'Models',
-  resourceId: 'deeplearning-bc473fbe-5a25-4039-9ae4-e5a52c9ec73b',
+  resourceId: 'deeplearning-ef0ea82a-acf4-4392-9b91-44d583fb826f',
 };
 
 // h2o-3 does not provide variable importance data for this model
@@ -46,7 +46,7 @@ const nbConfig = {
     resourceId: 'naivebayes-00e336fe-a8cc-46a7-bc60-c4dc1d6cf94e',
   };
 
-const config = glmConfig;
+const config = dlConfig;
 
 const server = config.server;
 const port = config.port;
