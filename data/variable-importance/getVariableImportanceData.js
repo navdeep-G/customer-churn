@@ -13,7 +13,6 @@ const glmConfig = {
   server: 'localhost',
   port: '54321',
   type: 'Models',
-  algo: 'glm',
   resourceId: 'glm-aaed8e67-2a86-476f-b1ab-b8232c0c553e',
 }
 
@@ -21,7 +20,6 @@ const gbmConfig = {
   server: 'localhost',
   port: '54321',
   type: 'Models',
-  algo: 'gbm',
   resourceId: 'gbm-bcef3445-8d00-4fb8-b823-8a86ce0ca77f',
 };
 
@@ -29,7 +27,6 @@ const drfConfig = {
   server: 'localhost',
   port: '54321',
   type: 'Models',
-  algo: 'drf',
   resourceId: 'drf-f0a2ab1e-4079-4585-addc-c06698f05640',
 };
 
@@ -38,7 +35,6 @@ const dlConfig = {
   server: 'localhost',
   port: '54321',
   type: 'Models',
-  algo: 'dl',
   resourceId: 'deeplearning-bc473fbe-5a25-4039-9ae4-e5a52c9ec73b',
 };
 
@@ -47,7 +43,6 @@ const nbConfig = {
     server: 'localhost',
     port: '54321',
     type: 'Models',
-    algo: 'nb',
     resourceId: 'naivebayes-00e336fe-a8cc-46a7-bc60-c4dc1d6cf94e',
   };
 
