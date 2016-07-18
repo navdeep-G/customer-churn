@@ -1,0 +1,307 @@
+[
+  {
+    "columnName": "tenure",
+    "coefficient": 1.293862593729485,
+    "sign": "NEG"
+  },
+  {
+    "columnName": "Contract.Month-to-month",
+    "coefficient": 0.7760508784013774,
+    "sign": "POS"
+  },
+  {
+    "columnName": "Contract.Two year",
+    "coefficient": 0.7734395110731559,
+    "sign": "NEG"
+  },
+  {
+    "columnName": "InternetService.Fiber optic",
+    "coefficient": 0.6844182853460697,
+    "sign": "POS"
+  },
+  {
+    "columnName": "TotalCharges",
+    "coefficient": 0.5713546418530471,
+    "sign": "POS"
+  },
+  {
+    "columnName": "PaymentMethod.Electronic check",
+    "coefficient": 0.40702341395028924,
+    "sign": "POS"
+  },
+  {
+    "columnName": "OnlineSecurity.No",
+    "coefficient": 0.31230466635817533,
+    "sign": "POS"
+  },
+  {
+    "columnName": "TechSupport.No",
+    "coefficient": 0.27343993178091763,
+    "sign": "POS"
+  },
+  {
+    "columnName": "StreamingMovies.Yes",
+    "coefficient": 0.2614073339732677,
+    "sign": "POS"
+  },
+  {
+    "columnName": "MultipleLines.No",
+    "coefficient": 0.23343336255455888,
+    "sign": "NEG"
+  },
+  {
+    "columnName": "OnlineBackup.No",
+    "coefficient": 0.19226170346723126,
+    "sign": "POS"
+  },
+  {
+    "columnName": "StreamingTV.Yes",
+    "coefficient": 0.12865297949038096,
+    "sign": "POS"
+  },
+  {
+    "columnName": "PaperlessBilling.No",
+    "coefficient": 0.12577059471665755,
+    "sign": "NEG"
+  },
+  {
+    "columnName": "PaperlessBilling.Yes",
+    "coefficient": 0.12577059471652496,
+    "sign": "POS"
+  },
+  {
+    "columnName": "InternetService.DSL",
+    "coefficient": 0.1039548636800881,
+    "sign": "NEG"
+  },
+  {
+    "columnName": "SeniorCitizen",
+    "coefficient": 0.102217266303751,
+    "sign": "POS"
+  },
+  {
+    "columnName": "PhoneService.Yes",
+    "coefficient": 0.08255466743327433,
+    "sign": "NEG"
+  },
+  {
+    "columnName": "MultipleLines.No phone service",
+    "coefficient": 0.08255466743327391,
+    "sign": "POS"
+  },
+  {
+    "columnName": "PhoneService.No",
+    "coefficient": 0.08255466743327033,
+    "sign": "POS"
+  },
+  {
+    "columnName": "Dependents.No",
+    "coefficient": 0.0711602819400978,
+    "sign": "POS"
+  },
+  {
+    "columnName": "Dependents.Yes",
+    "coefficient": 0.07116028193933294,
+    "sign": "NEG"
+  },
+  {
+    "columnName": "PaymentMethod.Credit card (automatic)",
+    "coefficient": 0.026441148642441827,
+    "sign": "NEG"
+  },
+  {
+    "columnName": "gender.Female",
+    "coefficient": 0.017575220380456093,
+    "sign": "NEG"
+  },
+  {
+    "columnName": "gender.Male",
+    "coefficient": 0.017575220379737626,
+    "sign": "POS"
+  },
+  {
+    "columnName": "DeviceProtection.Yes",
+    "coefficient": 0.011443532850255317,
+    "sign": "POS"
+  },
+  {
+    "columnName": "Partner.No",
+    "coefficient": 0.008157347375015885,
+    "sign": "NEG"
+  },
+  {
+    "columnName": "Partner.Yes",
+    "coefficient": 0.008157347374094619,
+    "sign": "POS"
+  },
+  {
+    "columnName": "PaymentMethod.Bank transfer (automatic)",
+    "coefficient": 0,
+    "sign": "POS"
+  },
+  {
+    "columnName": "PaymentMethod.Mailed check",
+    "coefficient": 0,
+    "sign": "POS"
+  },
+  {
+    "columnName": "PaymentMethod.missing(NA)",
+    "coefficient": 0,
+    "sign": "POS"
+  },
+  {
+    "columnName": "InternetService.No",
+    "coefficient": 0,
+    "sign": "POS"
+  },
+  {
+    "columnName": "InternetService.missing(NA)",
+    "coefficient": 0,
+    "sign": "POS"
+  },
+  {
+    "columnName": "OnlineSecurity.No internet service",
+    "coefficient": 0,
+    "sign": "POS"
+  },
+  {
+    "columnName": "OnlineSecurity.Yes",
+    "coefficient": 0,
+    "sign": "POS"
+  },
+  {
+    "columnName": "OnlineSecurity.missing(NA)",
+    "coefficient": 0,
+    "sign": "POS"
+  },
+  {
+    "columnName": "OnlineBackup.No internet service",
+    "coefficient": 0,
+    "sign": "POS"
+  },
+  {
+    "columnName": "OnlineBackup.Yes",
+    "coefficient": 0,
+    "sign": "POS"
+  },
+  {
+    "columnName": "OnlineBackup.missing(NA)",
+    "coefficient": 0,
+    "sign": "POS"
+  },
+  {
+    "columnName": "DeviceProtection.No",
+    "coefficient": 0,
+    "sign": "POS"
+  },
+  {
+    "columnName": "DeviceProtection.No internet service",
+    "coefficient": 0,
+    "sign": "POS"
+  },
+  {
+    "columnName": "DeviceProtection.missing(NA)",
+    "coefficient": 0,
+    "sign": "POS"
+  },
+  {
+    "columnName": "TechSupport.No internet service",
+    "coefficient": 0,
+    "sign": "POS"
+  },
+  {
+    "columnName": "TechSupport.Yes",
+    "coefficient": 0,
+    "sign": "POS"
+  },
+  {
+    "columnName": "TechSupport.missing(NA)",
+    "coefficient": 0,
+    "sign": "POS"
+  },
+  {
+    "columnName": "StreamingTV.No",
+    "coefficient": 0,
+    "sign": "POS"
+  },
+  {
+    "columnName": "StreamingTV.No internet service",
+    "coefficient": 0,
+    "sign": "POS"
+  },
+  {
+    "columnName": "StreamingTV.missing(NA)",
+    "coefficient": 0,
+    "sign": "POS"
+  },
+  {
+    "columnName": "StreamingMovies.No",
+    "coefficient": 0,
+    "sign": "POS"
+  },
+  {
+    "columnName": "StreamingMovies.No internet service",
+    "coefficient": 0,
+    "sign": "POS"
+  },
+  {
+    "columnName": "StreamingMovies.missing(NA)",
+    "coefficient": 0,
+    "sign": "POS"
+  },
+  {
+    "columnName": "Contract.One year",
+    "coefficient": 0,
+    "sign": "POS"
+  },
+  {
+    "columnName": "Contract.missing(NA)",
+    "coefficient": 0,
+    "sign": "POS"
+  },
+  {
+    "columnName": "MultipleLines.Yes",
+    "coefficient": 0,
+    "sign": "POS"
+  },
+  {
+    "columnName": "MultipleLines.missing(NA)",
+    "coefficient": 0,
+    "sign": "POS"
+  },
+  {
+    "columnName": "Dependents.missing(NA)",
+    "coefficient": 0,
+    "sign": "POS"
+  },
+  {
+    "columnName": "PhoneService.missing(NA)",
+    "coefficient": 0,
+    "sign": "POS"
+  },
+  {
+    "columnName": "gender.missing(NA)",
+    "coefficient": 0,
+    "sign": "POS"
+  },
+  {
+    "columnName": "PaperlessBilling.missing(NA)",
+    "coefficient": 0,
+    "sign": "POS"
+  },
+  {
+    "columnName": "Partner.missing(NA)",
+    "coefficient": 0,
+    "sign": "POS"
+  },
+  {
+    "columnName": "MonthlyCharges",
+    "coefficient": 0,
+    "sign": "POS"
+  },
+  {
+    "columnName": "",
+    "coefficient": null,
+    "sign": null
+  }
+]

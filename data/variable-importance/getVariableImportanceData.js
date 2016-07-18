@@ -7,45 +7,51 @@ String.prototype.capitalizeFirstLetter = function() {
     return this.charAt(0).toUpperCase() + this.slice(1);
 }
 
-// h2o-3 does not provide variable importance data for this model
+// variable importance data for this model is provided as
+// STANDARDIZED COEFFICIENT MAGNITUDES
 const glmConfig = {
   server: 'localhost',
   port: '54321',
   type: 'Models',
-  resourceId: 'glm-466538b6-2a41-4502-be46-463ffce2c616',
+  algo: 'glm',
+  resourceId: 'glm-aaed8e67-2a86-476f-b1ab-b8232c0c553e',
 }
 
 const gbmConfig = {
-    server: 'localhost',
-    port: '54321',
-    type: 'Models',
-    resourceId: 'gbm-bcef3445-8d00-4fb8-b823-8a86ce0ca77f',
-  };
+  server: 'localhost',
+  port: '54321',
+  type: 'Models',
+  algo: 'gbm',
+  resourceId: 'gbm-bcef3445-8d00-4fb8-b823-8a86ce0ca77f',
+};
 
 const drfConfig = {
-    server: 'localhost',
-    port: '54321',
-    type: 'Models',
-    resourceId: 'drf-f0a2ab1e-4079-4585-addc-c06698f05640',
-  };
+  server: 'localhost',
+  port: '54321',
+  type: 'Models',
+  algo: 'drf',
+  resourceId: 'drf-f0a2ab1e-4079-4585-addc-c06698f05640',
+};
 
 // h2o-3 does not provide variable importance data for this model
 const dlConfig = {
-    server: 'localhost',
-    port: '54321',
-    type: 'Models',
-    resourceId: 'deeplearning-bc473fbe-5a25-4039-9ae4-e5a52c9ec73b',
-  };
+  server: 'localhost',
+  port: '54321',
+  type: 'Models',
+  algo: 'dl',
+  resourceId: 'deeplearning-bc473fbe-5a25-4039-9ae4-e5a52c9ec73b',
+};
 
 // h2o-3 does not provide variable importance data for this model
 const nbConfig = {
     server: 'localhost',
     port: '54321',
     type: 'Models',
+    algo: 'nb',
     resourceId: 'naivebayes-00e336fe-a8cc-46a7-bc60-c4dc1d6cf94e',
   };
 
-const config = gbmConfig;
+const config = glmConfig;
 
 const server = config.server;
 const port = config.port;
@@ -54,6 +60,7 @@ const resourceId = config.resourceId;
 const split = config.split;
 
 const queryUrl = `http://${server}:${port}/3/${type}/${resourceId}`;
+console.log('queryUrl', queryUrl);
 
 function parseAlgo(response) {
   const responseData = JSON.parse(response.responseText);
@@ -66,12 +73,34 @@ function parseResponse(response) {
   const responseData = JSON.parse(response.responseText);
   console.log('responseData', responseData);
   const algo = responseData.models[0].algo;
+  console.log('algo detected', algo);
 
-  const metricsType = 'variable_importances';
+  let metricsType;
+  switch (algo) {
+    case 'glm':
+      metricsType = 'standardized_coefficient_magnitudes';
+      break;
+    default:
+      metricsType = 'variable_importances'; 
+  }
+
   const variableImportanceData = responseData.models[0].output[metricsType].data;
   const columnData = variableImportanceData[0];
-  const scaledImportanceData = variableImportanceData[2];
-  const percentageData = variableImportanceData[3];
+
+  let coefficientsData;
+  let signData;
+  let scaledImportanceData;
+  let percentageData;
+
+  switch (algo) {
+    case 'glm':
+      coefficientsData = variableImportanceData[1];
+      signData = variableImportanceData[2];
+      break;
+    default:
+      scaledImportanceData = variableImportanceData[2];
+      percentageData = variableImportanceData[3];
+  }
 
   const chartData = [];
 
@@ -81,13 +110,25 @@ function parseResponse(response) {
     })
   });
 
-  scaledImportanceData.forEach((d, i) => {
-    chartData[i].scaledImportance = d;
-  })
+  switch (algo) {
+    case 'glm':
+      coefficientsData.forEach((d, i) => {
+        chartData[i].coefficient = d;
+      })
 
-  percentageData.forEach((d, i) => {
-    chartData[i].percentage = d;
-  })
+      signData.forEach((d, i) => {
+        chartData[i].sign = d;
+      })
+      break;
+    default:
+      scaledImportanceData.forEach((d, i) => {
+        chartData[i].scaledImportance = d;
+      })
+
+      percentageData.forEach((d, i) => {
+        chartData[i].percentage = d;
+      })
+  }
 
   const parsedData = chartData;
   // console.log('parsedData', parsedData);
