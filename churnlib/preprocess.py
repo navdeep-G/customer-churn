@@ -2,7 +2,27 @@ from typing import List
 from sklearn.compose import ColumnTransformer
 from sklearn.pipeline import Pipeline
 from sklearn.impute import SimpleImputer
-from sklearn.preprocessing import OneHotEncoder, StandardScaler
+from sklearn.preprocessing import OneHotEncoder
+import inspect
+
+
+def _make_one_hot_encoder() -> OneHotEncoder:
+    """
+    Create a OneHotEncoder that works across sklearn versions.
+
+    - For newer versions (with 'sparse_output'): use sparse_output=False
+    - For older versions (with 'sparse'): use sparse=False
+    """
+    params = inspect.signature(OneHotEncoder).parameters
+    if "sparse_output" in params:
+        # sklearn >= 1.4
+        return OneHotEncoder(handle_unknown="ignore", sparse_output=False)
+    elif "sparse" in params:
+        # older sklearn (<= 1.3)
+        return OneHotEncoder(handle_unknown="ignore", sparse=False)
+    else:
+        # Fallback: don't specify sparsity arg
+        return OneHotEncoder(handle_unknown="ignore")
 
 
 def build_preprocessor(
@@ -24,7 +44,7 @@ def build_preprocessor(
     categorical_pipe = Pipeline(
         steps=[
             ("imputer", SimpleImputer(strategy="most_frequent")),
-            ("encoder", OneHotEncoder(handle_unknown="ignore", sparse=False)),
+            ("encoder", _make_one_hot_encoder()),
         ]
     )
 
@@ -35,3 +55,4 @@ def build_preprocessor(
         ]
     )
     return preprocessor
+
