@@ -3,6 +3,28 @@
 `churnlib` is a small Python toolkit that helps data scientists run
 end‑to‑end customer churn analyses with just a few lines of code.
 
+## Why churn analysis matters
+
+Customer churn is one of the most direct levers for sustainable growth: it impacts revenue predictability, customer lifetime value (CLV), and how efficiently you can spend on acquisition and retention.
+
+A few practical reasons teams invest in churn analysis:
+
+- **Retention is usually cheaper than acquisition.** HBR summarizes research suggesting acquiring a new customer can be *5–25×* more expensive than retaining an existing one. :contentReference[oaicite:1]{index=1}
+- **Small retention gains can have outsized profit impact.** HBR also cites work (Reichheld / Bain) often quoted as: improving retention by **5%** can increase profits by **25%–95%** (industry-dependent). :contentReference[oaicite:2]{index=2}
+- **Operational focus:** churn analysis helps you identify *who is at risk*, *why*, and *what intervention is worth it* (discount vs. onboarding help vs. product fix).
+- **Better targeting:** instead of blanket outreach, you can prioritize customers where preventing churn produces the highest incremental value (often via lift / gain style views).
+
+### What “good” churn analysis includes
+
+Beyond a single churn rate, teams typically want:
+
+- A clear **label definition** (what counts as churn, and over what horizon?)
+- A **time-aware split** (to avoid leakage when customer behavior changes over time)
+- ML metrics **and** business-facing views (e.g., **lift tables** / “top decile captures X% of churners”)
+- **Interpretability** (which features drive risk) so the analysis leads to action
+
+`churnlib` is designed to cover these basics end-to-end: preprocessing, baseline modeling, standard ML metrics, churn-specific business metrics + lift tables, and a lightweight HTML report you can share with stakeholders.
+
 ## Features
 
 * Simple configuration via `ChurnConfig`
